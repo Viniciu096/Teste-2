@@ -7,3 +7,8 @@ def subtracao(a, b):
     return a - b
 
 print("Subtração:", subtracao(10, 5))
+
+def multiplicacao(a, b):
+    return a * b
+
+print("Multiplicação:", multiplicacao(10, 5))
