@@ -1,14 +1,13 @@
 def soma(a, b):
     return a + b
 
-print("Soma:", soma(10, 5))
-
 def subtracao(a, b):
     return a - b
-
-print("Subtração:", subtracao(10, 5))
 
 def multiplicacao(a, b):
     return a * b
 
+print("=== Calculadora ===")
+print("Soma:", soma(10, 5))
+print("Subtração:", subtracao(10, 5))
 print("Multiplicação:", multiplicacao(10, 5))
