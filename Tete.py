@@ -1,9 +1,12 @@
+# Função que soma dois números
 def soma(a, b):
     return a + b
 
+# Função que subtrai dois números
 def subtracao(a, b):
     return a - b
 
+# Função que multiplica dois números
 def multiplicacao(a, b):
     return a * b
 
