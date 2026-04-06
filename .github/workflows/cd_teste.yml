@@ -2,7 +2,7 @@ name: CD Testes
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "Tete" ]
 
 jobs:
   deploy:
@@ -10,7 +10,7 @@ jobs:
 
     steps:
     - name: Clonar repositório
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Simular deploy
-      run: echo "Deploy realizado com sucesso 🚀"
+      run: echo "Deploy realizado com sucesso"
