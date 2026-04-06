@@ -1,4 +1,4 @@
-name: CD Teste
+name: CD Testes
 
 on:
   push:
