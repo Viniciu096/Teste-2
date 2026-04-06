@@ -1,4 +1,4 @@
-name: CI Teste
+name: CI Testes
 
 on:
   push:
@@ -23,4 +23,4 @@ jobs:
       run: python -m pip install --upgrade pip
 
     - name: Rodar programa
-      run: python Tete.py
+      run: python main.py
