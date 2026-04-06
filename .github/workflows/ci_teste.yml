@@ -2,7 +2,7 @@ name: CI Testes
 
 on:
   push:
-    branches: [ "Tete" ]
+    branches: [ "dev" ]
   pull_request:
     branches: [ "main" ]
 

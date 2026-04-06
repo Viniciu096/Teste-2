@@ -2,7 +2,7 @@ name: CD Testes
 
 on:
   push:
-    branches: [ "Tete" ]
+    branches: [ "main" ]
 
 jobs:
   deploy:
