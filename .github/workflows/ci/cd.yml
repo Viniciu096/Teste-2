@@ -1,6 +1,8 @@
-name: CI Teste
+name: CI/CD Testes
 
 on:
+  push:
+    branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
 
@@ -22,3 +24,14 @@ jobs:
 
     - name: Rodar programa
       run: python Tete.py
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Clonar repositório
+      uses: actions/checkout@v4
+
+    - name: Simular deploy
+      run: echo "Deploy realizado com sucesso"
