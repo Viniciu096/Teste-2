@@ -1,8 +1,6 @@
-name: CI Testes
+name: CI Teste
 
 on:
-  push:
-    branches: [ "Teste" ]
   pull_request:
     branches: [ "main" ]
 
