@@ -1,4 +1,4 @@
-name: Discord.yml
+name: Discord
 
 on:
   - push
