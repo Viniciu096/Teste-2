@@ -1,16 +1,18 @@
-name: Discord.yml
-on:
+name: Discord
 
-jobs:
+on:
   - push
 
-discord:
-  runs-on: ubuntu-latest
-  steps:
-    - user: actions/chekout@v4
-    - name: Run Discord Webhook
-      user: Sniddl/discord-comits@v1.6
-      with:
-        webhook: ${{ secrets.DISCORD_WEBHOOK}}
-        template: "avatar-with-link"
-        include-extras: true
+jobs:
+  discord:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run Discord Webhook
+        uses: Sniddl/discord-commits@v1.6
+        with:
+          webhook: ${{ secrets.DISCORD_WEBHOOK }}
+          template: "avatar-with-link"
+          include-extras: true
