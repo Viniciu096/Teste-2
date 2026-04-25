@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04fcfae5-22c4-431d-b3c2-e9f8226a0916" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci_teste.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci_teste.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testes/talvez.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testes/talvez.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +70,7 @@
       <workItem from="1776631915825" duration="906000" />
       <workItem from="1777064637694" duration="3094000" />
       <workItem from="1777073385490" duration="1614000" />
-      <workItem from="1777139056224" duration="4776000" />
+      <workItem from="1777139056224" duration="5070000" />
     </task>
     <servers />
   </component>
