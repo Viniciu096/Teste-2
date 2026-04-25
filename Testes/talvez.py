@@ -14,4 +14,4 @@ if __name__ == "__main__":
     testar_soma()
     testar_subtracao()
     testar_multiplicacao()
-    print("Todos os testes passaram!")
+    print("Todos os testes passaram!!")
