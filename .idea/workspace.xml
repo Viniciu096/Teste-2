@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04fcfae5-22c4-431d-b3c2-e9f8226a0916" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Testes/talvez.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testes/talvez.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci_teste.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci_teste.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Discord__teste",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
